@@ -462,5 +462,4 @@ void update_timers(Chip8* chip8) {
             printf("Beep\n");
         }
     }
-
 }
