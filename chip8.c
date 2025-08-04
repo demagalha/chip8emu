@@ -375,7 +375,7 @@ void chip8_init(Chip8* chip8) {
     chip8->I = 0;
     chip8->sp = 0;
     chip8->delay_timer = 0;
-    chip8->delay_timer;
+    chip8->sound_timer = 0;
 
     chip8->key_pressed = 0;
 
@@ -462,4 +462,5 @@ void update_timers(Chip8* chip8) {
             printf("Beep\n");
         }
     }
+
 }
